@@ -1,0 +1,7 @@
+{
+  "name": "lod_final_2024",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}

@@ -1,0 +1,46 @@
+ion-content{
+  --background: url('../../assets/imgs/fondodepantalla2.jpg') no-repeat center center / cover;
+  background-size: contain;
+  
+}
+
+.small-button {
+  --padding-start: 7px;
+  --padding-end: 8px;
+  --padding-top: 4px;
+  --padding-bottom: 4px;
+  font-size: 14px; 
+
+}
+
+ion-card{
+  box-shadow: none;
+  border-radius: 20px;
+  transform: translateY(40%);
+  background-color: rgba(127, 123, 245, 0.35);
+  backdrop-filter: blur(8px);
+  div.lock{
+    font-size: 5rem;
+    ion-icon{
+      color:#4e0994;
+    
+    }
+
+  }
+  ion-item{
+    --border-radius: 10px;
+    ion-input, .fwd {
+      font-size: 1rem;
+    }
+  }
+
+  .submit{
+     ion-button{
+      --background: linear-gradient(to right, #0906d0,#2577f0);
+     }
+     ion-text{
+      font-size: 1.2rem;
+     }
+  }
+
+}
